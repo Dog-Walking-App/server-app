@@ -1,0 +1,16 @@
+{
+  "javascript.format.enable": false,
+  "eslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "prettier.enable": false,
+  "eslint.experimental.useFlatConfig": true,
+  "cSpell.words": [
+    "Elysia",
+    "elysiajs",
+    "typeorm"
+  ]
+}

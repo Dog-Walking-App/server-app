@@ -1,0 +1,30 @@
+{
+  "name": "server-app",
+  "version": "1.0.0",
+  "description": "",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.52.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "bun-types": "^1.0.7",
+    "eslint": "^8.52.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@elysiajs/bearer": "^0.7.0",
+    "@elysiajs/cors": "^0.7.2",
+    "@elysiajs/swagger": "^0.7.4",
+    "class-validator": "^0.14.0",
+    "elysia": "^0.7.29"
+  }
+}
